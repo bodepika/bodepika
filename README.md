@@ -24,6 +24,7 @@
 </p>
 
 ---
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00c3ff&size=25&center=true&vCenter=true&width=900&lines=Red+Team+Ops;Segurança+Ofensiva;Pentest;Análise+de+Vulnerabilidades;Always+Learning)](https://git.io/typing-svg)
 
 ## 🛰️ Sobre mim
 - 🛡️ Me aprofundando em fundamentos sólidos: redes, Linux, protocolos, arquitetura.  
@@ -45,12 +46,8 @@
 ---
 
 ## 📊 Minhas Estatísticas
-<div align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=bodepika&show_icons=true&theme=tokyonight&hide_border=true" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bodepikaR&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
+![Status](https://github-readme-stats.vercel.app/api?username=bodepika&show_icons=true&theme=radical)
 
 ---
 
@@ -62,4 +59,13 @@
 
 ---
 
-## 🧵 Estética Terminal
+<p align="center">
+  <img src="https://i.gifer.com/YlWC.gif" width="500">
+</p>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Red%20Team-%23FF0000?style=for-the-badge&logo=kalilinux&logoColor=white">
+  <img src="https://img.shields.io/badge/SecOps-%2300A0FF?style=for-the-badge&logo=linux&logoColor=white">
+</p>
+
