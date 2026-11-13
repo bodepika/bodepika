@@ -18,7 +18,7 @@
     <clipPath id="frame"><rect width="1200" height="320" rx="14"/></clipPath>
     <style>
       .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
-      .title { font-size: 104px; font-weight: 800; letter-spacing: 14px; }
+      .title { font-size: 92px; font-weight: 800; letter-spacing: 10px; }
       .g1 { fill: #ff1a1a; opacity: .55; animation: g1 4s infinite steps(1); }
       .g2 { fill: #5a0000; opacity: .8; animation: g2 4s infinite steps(1); }
       .main { fill: #e6e6e6; }
@@ -69,9 +69,9 @@
 
     <!-- title with glitch layers -->
     <g class="mono title" text-anchor="middle">
-      <text x="600" y="185" class="g2">BODEPIKA</text>
-      <text x="600" y="185" class="g1">BODEPIKA</text>
-      <text x="600" y="185" class="main">BODEPIKA</text>
+      <text x="600" y="182" class="g2">WHO AM I?</text>
+      <text x="600" y="182" class="g1">WHO AM I?</text>
+      <text x="600" y="182" class="main">WHO AM I?</text>
     </g>
 
     <!-- underline -->
