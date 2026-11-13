@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="64" viewBox="0 0 420 64">
+  <style>
+    .t { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 22px; font-weight: 700; letter-spacing: 3px; }
+    .c { animation: b 1s infinite steps(1); }
+    @keyframes b { 50% { opacity: 0; } }
+  </style>
+  <path d="M0 52H420" stroke="#2a0000" stroke-width="2"/>
+  <path d="M60 12H372L352 52H40Z" fill="#b30000"/>
+  <path d="M60 12H372L352 52H40Z" fill="none" stroke="#ff1a1a" stroke-opacity=".35"/>
+  <path d="M30 12H50L30 52H10Z" fill="#3b0000"/>
+  <path d="M382 12H402L382 52H362Z" fill="#3b0000"/>
+  <text x="206" y="40" text-anchor="middle" class="t" fill="#0a0a0a">&gt; whoami<tspan class="c">_</tspan></text>
+</svg>

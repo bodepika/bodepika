@@ -1,71 +1,81 @@
-<h1 align="center"> Bode - 💻 Segurança da Informação 🛡️</h1>
-
 <div align="center">
-  <pre>
-```````````````````````````````````````````````````````````````
-██████╗ ███████╗██████╗     ████████╗███████╗ █████╗ ███╗   ███╗
-██╔══██╗██╔════╝██   ██╗    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║
-██████╔╝█████╗  ██   ██║       ██║   █████╗  ███████║██╔████╔██║
-██╔══██╗██╔══╝  ██   ██║       ██║   ██╔══╝  ██╔══██║██║╚██╔╝██║
-██║  ██║███████╗██║████║       ██║   ███████╗██║  ██║██║ ╚═╝ ██║
-╚═╝  ╚═╝╚══════╝╚══════╝       ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝
-```````````````````````````````````````````````````````````````
-    
-  </pre>
+
+<img width="100%" src="./assets/header.svg" alt="bodepika" />
+
+<a href="https://github.com/bodepika?tab=followers"><img src="https://img.shields.io/github/followers/bodepika?style=for-the-badge&label=followers&labelColor=0d0d0d&color=8b0000" /></a>
+<a href="https://github.com/bodepika?tab=repositories"><img src="https://img.shields.io/github/stars/bodepika?style=for-the-badge&label=stars&labelColor=0d0d0d&color=8b0000" /></a>
+<img src="https://komarev.com/ghpvc/?username=bodepika&style=for-the-badge&label=visitors&color=8b0000&labelColor=0d0d0d" />
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3500&pause=1200&color=B30000&center=true&vCenter=true&width=560&lines=Every+system+has+a+door.;Most+don't+know+it's+open.;I+do." alt="Every system has a door." />
+
+<br><br>
+
+<img src="./assets/tag-whoami.svg" alt="> whoami" />
 
 </div>
-  
 
-<p align="center">
-  Estudante dedicado de Segurança Ofensiva  
-  Buscando maestria em sistemas, redes e análise de vulnerabilidades  
-  <br>
-  <i>"A maior falha não esta no sistema e sim nas pessoas"</i>
-</p>
+```console
+root@shadow:~# whoami
+  pentester · red team · offensive security
 
----
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00c3ff&size=25&center=true&vCenter=true&width=900&lines=Red+Team+Ops;Segurança+Ofensiva;Pentest;Análise+de+Vulnerabilidades;Always+Learning)](https://git.io/typing-svg)
+root@shadow:~# cat /etc/motd
+  access is never denied. only delayed.
 
-## 🛰️ Sobre mim
-- 🛡️ Me aprofundando em fundamentos sólidos: redes, Linux, protocolos, arquitetura.  
-- 🧪 Estudando técnicas de avaliação de segurança de forma ética e responsável.  
-- 📚 Aprendendo continuamente sobre análise de logs, automação e identificação de anomalias.  
-- 🔍 Focado em criar uma base técnica forte antes de especializações.  
-- 🚀 Minha meta: me tornar um profissional completo em segurança e desenvolvimento.
-- 🪙 Aprofundando o meu conhecimento em Tokens, Servidores, Penetração.
----
+root@shadow:~# ls ~/work
+  ls: cannot open directory '/home/bodepika/work': Permission denied
+```
 
-## ⚒️ Stack & Ferramentas que estudo
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,linux,git,bash,java,js,html,css" /><br><br>
-  <img src="https://skillicons.dev/icons?i=vscode,postgres,docker" />
-</p>
+> [!CAUTION]
+> This session is being logged.
+>
+> What you see here is only the surface.
 
-> Sempre estudando com responsabilidade, ambiente controlado e ética profissional.
+<div align="center">
 
----
+<br>
 
-## 📊 Minhas Estatísticas
+<img src="./assets/tag-arsenal.svg" alt="> arsenal" />
 
-![Status](https://github-readme-stats.vercel.app/api?username=bodepika&show_icons=true&theme=radical)
+<br><br>
 
----
+<img src="https://skillicons.dev/icons?i=kali,linux,bash,powershell,python,go,c,cpp,docker,git,vim&theme=dark&perline=11" />
 
-## 🔎 Registro de Aprendizado
-- Protocolos: TCP/IP, DNS, HTTP, TLS  
-- Conceitos: OWASP Top 10, princípios de segurança, autenticação vs autorização  
-- Ferramentas: linha de comando, análise de tráfego local, automação com Python  
-- Mentalidade: observação, análise, método e responsabilidade
+<br><br>
 
----
+<img src="https://img.shields.io/badge/BURP_SUITE-8b0000?style=for-the-badge&labelColor=0d0d0d" />
+<img src="https://img.shields.io/badge/METASPLOIT-8b0000?style=for-the-badge&labelColor=0d0d0d" />
+<img src="https://img.shields.io/badge/NMAP-8b0000?style=for-the-badge&labelColor=0d0d0d" />
+<img src="https://img.shields.io/badge/WIRESHARK-8b0000?style=for-the-badge&labelColor=0d0d0d" />
+<img src="https://img.shields.io/badge/HASHCAT-8b0000?style=for-the-badge&labelColor=0d0d0d" />
+<img src="https://img.shields.io/badge/BLOODHOUND-8b0000?style=for-the-badge&labelColor=0d0d0d" />
 
-<p align="center">
-  <img src="https://i.gifer.com/YlWC.gif" width="500">
-</p>
+<br><br>
 
+<img src="./assets/tag-contrib.svg" alt="> contributions" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Red%20Team-%23FF0000?style=for-the-badge&logo=kalilinux&logoColor=white">
-  <img src="https://img.shields.io/badge/SecOps-%2300A0FF?style=for-the-badge&logo=linux&logoColor=white">
-</p>
+<br><br>
 
+<img width="100%" src="./profile-3d-contrib/profile-crimson.svg" alt="3D contributions" />
+
+<br><br>
+
+<img src="./assets/tag-traces.svg" alt="> traces" />
+
+<br><br>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=bodepika&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&bg_color=0d1117&text_color=8a8a8a&icon_color=b30000&ring_color=b30000" />
+<img height="170" src="https://streak-stats.demolab.com?user=bodepika&hide_border=true&background=0d1117&ring=b30000&fire=ff1a1a&currStreakNum=e6e6e6&sideNums=e6e6e6&currStreakLabel=b30000&sideLabels=8a8a8a&dates=5a5a5a&stroke=3b0000" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=bodepika&bg_color=0d1117&color=6e6e6e&line=b30000&point=ff1a1a&area=true&area_color=3b0000&hide_border=true&custom_title=signal%20activity&title_color=b30000" />
+
+<br><br>
+
+<img src="./assets/tag-exit.svg" alt="> exit" />
+
+<br><br>
+
+<sub><code>// if you need to find me, you already know how.</code></sub>
+
+</div>

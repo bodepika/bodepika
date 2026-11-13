@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.6" stop-color="#0b0b0d"/>
+      <stop offset="1" stop-color="#1a0000"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b30000" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#b30000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2a0000" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" opacity="0.45"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="14"/></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace; }
+      .title { font-size: 104px; font-weight: 800; letter-spacing: 14px; }
+      .g1 { fill: #ff1a1a; opacity: .55; animation: g1 4s infinite steps(1); }
+      .g2 { fill: #5a0000; opacity: .8; animation: g2 4s infinite steps(1); }
+      .main { fill: #e6e6e6; }
+      .sub { font-size: 18px; fill: #8a8a8a; letter-spacing: 6px; }
+      .dim { font-size: 12px; fill: #3d0000; }
+      .cursor { fill: #b30000; animation: blink 1s infinite steps(1); }
+      .sweep { animation: sweep 6s linear infinite; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes g1 {
+        0%,88%,100% { transform: translate(0,0); }
+        90% { transform: translate(-6px,2px); }
+        92% { transform: translate(5px,-3px); }
+        94% { transform: translate(-3px,0); }
+      }
+      @keyframes g2 {
+        0%,88%,100% { transform: translate(0,0); }
+        90% { transform: translate(6px,-2px); }
+        92% { transform: translate(-5px,3px); }
+        94% { transform: translate(3px,1px); }
+      }
+      @keyframes sweep { from { transform: translateY(-40px); } to { transform: translateY(360px); } }
+      @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" opacity="0.6"/>
+    <ellipse cx="600" cy="160" rx="520" ry="170" fill="url(#glow)" class="pulse"/>
+
+    <!-- background noise -->
+    <g class="mono dim">
+      <text x="34" y="44">0x7f3a9c00  4d 5a 90 00 03 00 00 00</text>
+      <text x="34" y="62">0x7f3a9c10  b8 00 00 00 00 00 00 00</text>
+      <text x="880" y="290">SYN → SYN/ACK → ACK</text>
+      <text x="880" y="272">port 443/tcp  state: filtered</text>
+      <text x="34" y="290">uid=0(root) gid=0(root)</text>
+    </g>
+
+    <!-- corner brackets -->
+    <g fill="none" stroke="#b30000" stroke-width="2">
+      <path d="M24 70V24H70"/>
+      <path d="M1130 24H1176V70"/>
+      <path d="M24 250V296H70"/>
+      <path d="M1176 250V296H1130"/>
+    </g>
+
+    <!-- title with glitch layers -->
+    <g class="mono title" text-anchor="middle">
+      <text x="600" y="185" class="g2">BODEPIKA</text>
+      <text x="600" y="185" class="g1">BODEPIKA</text>
+      <text x="600" y="185" class="main">BODEPIKA</text>
+    </g>
+
+    <!-- underline -->
+    <rect x="360" y="212" width="480" height="2" fill="#b30000"/>
+    <rect x="360" y="212" width="60" height="2" fill="#ff3333" class="pulse"/>
+
+    <text x="600" y="250" text-anchor="middle" class="mono sub">OFFENSIVE SECURITY // RED TEAM<tspan class="cursor">_</tspan></text>
+
+    <!-- scanlines + sweep -->
+    <rect width="1200" height="320" fill="url(#scan)"/>
+    <rect width="1200" height="40" fill="#b30000" opacity="0.05" class="sweep"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#2a0000"/>
+</svg>
