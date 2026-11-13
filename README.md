@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/header.svg" alt="bodepika" />
+<img width="100%" src="./assets/banner-whoami.svg" alt="bodepika" />
 
 <a href="https://github.com/bodepika?tab=followers"><img src="https://img.shields.io/github/followers/bodepika?style=for-the-badge&label=followers&labelColor=0d0d0d&color=8b0000" /></a>
 <a href="https://github.com/bodepika?tab=repositories"><img src="https://img.shields.io/github/stars/bodepika?style=for-the-badge&label=stars&labelColor=0d0d0d&color=8b0000" /></a>
